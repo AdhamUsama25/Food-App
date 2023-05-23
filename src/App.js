@@ -23,7 +23,6 @@ const App = () => {
             <main>
                 <Meals/>
             </main>
-
         </CartProvider>
     );
 };

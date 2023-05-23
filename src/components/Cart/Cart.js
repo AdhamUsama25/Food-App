@@ -40,7 +40,7 @@ const Cart = (props) => {
                 <button className={styles['button--alt']} onClick={props.onClose}>
                     Close
                 </button>
-                {hasItems && <button className={styles.button}>Order</button>}
+                {hasItems && <button className={styles.button} onClick={()=>alert("Your order is getting ready")}>Order</button>}
             </div>
             <div className={styles.total}>
                 <span>Total Amount</span>
